@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Konto löschen – Wort des Tages</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      max-width: 600px;
+      margin: 60px auto;
+      padding: 0 24px;
+      color: #1F1A14;
+      background: #FAF7F0;
+      line-height: 1.7;
+    }
+    h1 { font-size: 28px; margin-bottom: 8px; }
+    p { margin: 16px 0; }
+    ol { padding-left: 24px; }
+    li { margin: 10px 0; }
+    .note {
+      background: #fff;
+      border-left: 4px solid #B5502E;
+      padding: 14px 18px;
+      margin: 28px 0;
+      border-radius: 0 8px 8px 0;
+    }
+    a { color: #B5502E; }
+  </style>
+</head>
+<body>
+  <h1>Konto löschen</h1>
+  <p>Du kannst dein Konto direkt in der App <strong>Wort des Tages</strong> löschen. Dabei werden alle deine Daten (Profil, Favoriten, Statistiken, Verlauf) dauerhaft und unwiderruflich gelöscht.</p>
+
+  <h2>So löschst du dein Konto</h2>
+  <ol>
+    <li>Öffne die App <strong>Wort des Tages</strong></li>
+    <li>Tippe unten auf <strong>Profil</strong></li>
+    <li>Scrolle nach unten und tippe auf <strong>Konto löschen</strong></li>
+    <li>Bestätige die Löschung</li>
+  </ol>
+
+  <div class="note">
+    <strong>Hinweis:</strong> Die Löschung ist sofort und kann nicht rückgängig gemacht werden. Alle gespeicherten Daten werden dauerhaft entfernt.
+  </div>
+
+  <p>Bei Fragen wende dich an: <a href="mailto:f-klug@outlook.de">f-klug@outlook.de</a></p>
+</body>
+</html>
