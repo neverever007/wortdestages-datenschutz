@@ -1,39 +1,424 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Datenschutzerklärung – Wort des Tages</title>
+
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 680px; margin: 0 auto; padding: 40px 24px 80px; color: #1a1a1a; line-height: 1.7; }
-    h1 { font-size: 26px; margin-bottom: 4px; }
-    h2 { font-size: 16px; margin-top: 32px; margin-bottom: 6px; }
-    p { font-size: 15px; color: #444; margin: 0 0 12px; }
-    .meta { font-size: 13px; color: #888; margin-bottom: 40px; }
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(35,202,184,0.12), transparent 30%),
+        #050708;
+      color: #f5f5f5;
+      line-height: 1.7;
+    }
+
+    header {
+      border-bottom: 1px solid #202627;
+    }
+
+    .header-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 28px 24px;
+    }
+
+    .brand {
+      color: #23cab8;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-decoration: none;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 70px 24px 100px;
+    }
+
+    h1 {
+      font-size: clamp(38px, 7vw, 60px);
+      line-height: 1.1;
+      margin: 0 0 15px;
+    }
+
+    .subtitle {
+      color: #899092;
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      color: #23cab8;
+      font-size: 22px;
+      margin-top: 45px;
+      margin-bottom: 15px;
+    }
+
+    p,
+    li {
+      color: #c3c8ca;
+      font-size: 17px;
+    }
+
+    ul {
+      padding-left: 24px;
+    }
+
+    a {
+      color: #23cab8;
+    }
+
+    .box {
+      margin-top: 30px;
+      padding: 24px;
+      border: 1px solid rgba(35, 202, 184, 0.25);
+      border-radius: 18px;
+      background: rgba(18, 24, 25, 0.85);
+    }
+
+    footer {
+      border-top: 1px solid #202627;
+    }
+
+    .footer-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px 24px;
+      color: #899092;
+      font-size: 14px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .footer-inner a {
+      color: #b8bfc1;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    .footer-inner a:hover {
+      color: #23cab8;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding-top: 50px;
+      }
+
+      .footer-inner a {
+        margin-left: 0;
+        margin-right: 15px;
+      }
+    }
   </style>
 </head>
+
 <body>
+
+<header>
+  <div class="header-inner">
+    <a
+      class="brand"
+      href="https://neverever007.github.io/wort-des-tages-website/"
+    >
+      WORT DES TAGES
+    </a>
+  </div>
+</header>
+
+<main>
+
   <h1>Datenschutzerklärung</h1>
-  <p class="meta">Stand: 25.06.2026</p>
 
-  <p>Diese Datenschutzerklärung beschreibt, welche Daten in der App „Wort des Tages" verarbeitet werden.</p>
+  <p class="subtitle">
+    Stand: September 2026
+  </p>
 
-  <h2>Verantwortlicher</h2>
-  <p>Fabio Klug<br/>E-Mail: info@wortdestages.eu</p>
+  <h2>1. Verantwortlicher</h2>
 
-  <h2>Verarbeitete Daten</h2>
-  <p>Die App verarbeitet Kontodaten wie E-Mail-Adresse, Anzeigename, Profilbild/Avatar, Favoriten, benutzte Wörter, persönliche Wörter, Upvotes, Freundschaften, App-Ideen und Wortvorschläge.</p>
+  <p>
+    Verantwortlich für die Verarbeitung personenbezogener Daten
+    im Zusammenhang mit der App „Wort des Tages“ ist:
+  </p>
 
-  <h2>Gastzugang</h2>
-  <p>Im Gastzugang werden Favoriten, benutzte Wörter und Einstellungen lokal auf dem Gerät gespeichert. Bei späterer Registrierung können diese Daten in den Account übernommen werden.</p>
+  <div class="box">
+    <p>
+      Wort des Tages
+    </p>
 
-  <h2>Benachrichtigungen</h2>
-  <p>Benachrichtigungen werden nur nach Erlaubnis durch Android/iOS angezeigt. Die Uhrzeit und einzelne Benachrichtigungen können im Profil geändert werden.</p>
+    <p>
+      E-Mail:
+      <a href="mailto:info@wortdestages.eu">
+        info@wortdestages.eu
+      </a>
+    </p>
+  </div>
 
-  <h2>Dienstleister</h2>
-  <p>Für Authentifizierung und Datenbank wird Supabase (Supabase Inc.) verwendet. Die Daten werden auf Servern in Irland (EU West) verarbeitet und gespeichert.</p>
 
-  <h2>Löschung</h2>
-  <p>Du kannst dein Profil in der App löschen. Dabei werden dein Account und die zugeordneten App-Daten dauerhaft entfernt.</p>
+  <h2>2. Allgemeines zur Datenverarbeitung</h2>
+
+  <p>
+    Der Schutz personenbezogener Daten ist uns wichtig.
+    Personenbezogene Daten werden nur verarbeitet, soweit dies
+    für den Betrieb und die Bereitstellung der Funktionen der App
+    erforderlich ist oder eine entsprechende Rechtsgrundlage besteht.
+  </p>
+
+
+  <h2>3. Registrierung und Benutzerkonto</h2>
+
+  <p>
+    Für bestimmte Funktionen der App kann die Erstellung eines
+    Benutzerkontos erforderlich sein.
+  </p>
+
+  <p>
+    Dabei können insbesondere folgende Daten verarbeitet werden:
+  </p>
+
+  <ul>
+    <li>E-Mail-Adresse</li>
+    <li>Benutzername oder Profilname</li>
+    <li>technische Benutzer-ID</li>
+    <li>Profildaten</li>
+    <li>Kontoeinstellungen</li>
+  </ul>
+
+  <p>
+    Diese Daten werden verwendet, um das Benutzerkonto bereitzustellen,
+    Nutzer zu authentifizieren und die jeweiligen App-Funktionen
+    zur Verfügung zu stellen.
+  </p>
+
+
+  <h2>4. Nutzung der App</h2>
+
+  <p>
+    Bei der Nutzung der App können Daten entstehen, die für die
+    Bereitstellung bestimmter Funktionen erforderlich sind.
+  </p>
+
+  <p>
+    Dazu können beispielsweise gehören:
+  </p>
+
+  <ul>
+    <li>Favoriten</li>
+    <li>verwendete Wörter</li>
+    <li>Statistiken und Serien</li>
+    <li>Upvotes und Bewertungen</li>
+    <li>Beiträge oder andere Community-Inhalte</li>
+    <li>Freundes- oder Profilfunktionen</li>
+  </ul>
+
+  <p>
+    Diese Daten werden verarbeitet, um die entsprechenden Funktionen
+    innerhalb der App bereitzustellen.
+  </p>
+
+
+  <h2>5. Community-Inhalte</h2>
+
+  <p>
+    Soweit Nutzer eigene Beiträge oder andere Inhalte innerhalb
+    der App veröffentlichen, werden diese Daten gespeichert und
+    abhängig von der jeweiligen Funktion anderen Nutzern angezeigt.
+  </p>
+
+  <p>
+    Nutzer sollten keine personenbezogenen Daten Dritter oder andere
+    vertrauliche Informationen veröffentlichen, sofern sie hierzu
+    nicht berechtigt sind.
+  </p>
+
+
+  <h2>6. Technische Daten</h2>
+
+  <p>
+    Beim Betrieb der App können technische Informationen verarbeitet
+    werden, die für die Kommunikation zwischen App und Server,
+    die Fehleranalyse sowie die Sicherheit des Dienstes erforderlich sind.
+  </p>
+
+  <p>
+    Dazu können insbesondere gehören:
+  </p>
+
+  <ul>
+    <li>Geräte- und Betriebssysteminformationen</li>
+    <li>IP-Adresse</li>
+    <li>Zeitpunkt von Serveranfragen</li>
+    <li>technische Fehler- und Diagnosedaten</li>
+  </ul>
+
+
+  <h2>7. Supabase</h2>
+
+  <p>
+    Für die technische Bereitstellung der App und insbesondere
+    für Datenbank-, Authentifizierungs- und Backend-Funktionen
+    wird Supabase eingesetzt.
+  </p>
+
+  <p>
+    Dabei können personenbezogene Daten im Rahmen der Nutzung
+    der App auf Systemen des eingesetzten Dienstleisters verarbeitet werden.
+  </p>
+
+  <p>
+    Weitere Informationen zum Datenschutz bei Supabase sind auf
+    den Webseiten des Anbieters verfügbar.
+  </p>
+
+
+  <h2>8. Push-Benachrichtigungen</h2>
+
+  <p>
+    Sofern Nutzer Push-Benachrichtigungen aktivieren, kann die App
+    technische Kennungen verwenden, die notwendig sind, um
+    Benachrichtigungen an das jeweilige Gerät zuzustellen.
+  </p>
+
+  <p>
+    Push-Benachrichtigungen können in den Systemeinstellungen des
+    Geräts jederzeit deaktiviert werden.
+  </p>
+
+
+  <h2>9. Speicherdauer</h2>
+
+  <p>
+    Personenbezogene Daten werden grundsätzlich nur so lange gespeichert,
+    wie dies für den jeweiligen Zweck erforderlich ist oder gesetzliche
+    Aufbewahrungspflichten bestehen.
+  </p>
+
+  <p>
+    Wird ein Benutzerkonto gelöscht, werden die damit verbundenen Daten
+    gelöscht oder anonymisiert, soweit keine gesetzlichen Gründe einer
+    Löschung entgegenstehen.
+  </p>
+
+
+  <h2>10. Rechtsgrundlagen</h2>
+
+  <p>
+    Die Verarbeitung personenbezogener Daten erfolgt insbesondere,
+    soweit dies zur Bereitstellung der App und ihrer Funktionen
+    erforderlich ist, zur Erfüllung vertraglicher oder vorvertraglicher
+    Maßnahmen sowie auf Grundlage berechtigter Interessen oder einer
+    Einwilligung, sofern eine solche erforderlich ist.
+  </p>
+
+
+  <h2>11. Rechte der betroffenen Personen</h2>
+
+  <p>
+    Nutzer haben im Rahmen der gesetzlichen Voraussetzungen insbesondere
+    folgende Rechte:
+  </p>
+
+  <ul>
+    <li>Recht auf Auskunft</li>
+    <li>Recht auf Berichtigung</li>
+    <li>Recht auf Löschung</li>
+    <li>Recht auf Einschränkung der Verarbeitung</li>
+    <li>Recht auf Datenübertragbarkeit</li>
+    <li>Recht auf Widerspruch</li>
+    <li>Recht auf Widerruf erteilter Einwilligungen</li>
+  </ul>
+
+  <p>
+    Zur Ausübung dieser Rechte kann die folgende E-Mail-Adresse
+    verwendet werden:
+  </p>
+
+  <p>
+    <a href="mailto:info@wortdestages.eu">
+      info@wortdestages.eu
+    </a>
+  </p>
+
+
+  <h2>12. Beschwerderecht</h2>
+
+  <p>
+    Nutzer haben das Recht, sich bei einer zuständigen
+    Datenschutzaufsichtsbehörde zu beschweren, wenn sie der Ansicht sind,
+    dass die Verarbeitung ihrer personenbezogenen Daten gegen
+    datenschutzrechtliche Vorschriften verstößt.
+  </p>
+
+
+  <h2>13. Sicherheit</h2>
+
+  <p>
+    Es werden angemessene technische und organisatorische Maßnahmen
+    eingesetzt, um personenbezogene Daten vor Verlust, Missbrauch,
+    unbefugtem Zugriff oder unbefugter Veränderung zu schützen.
+  </p>
+
+
+  <h2>14. Änderungen dieser Datenschutzerklärung</h2>
+
+  <p>
+    Diese Datenschutzerklärung kann angepasst werden, wenn sich
+    Funktionen der App, eingesetzte Dienste oder gesetzliche
+    Anforderungen ändern.
+  </p>
+
+  <p>
+    Die jeweils aktuelle Fassung wird auf dieser Seite veröffentlicht.
+  </p>
+
+
+  <h2>15. Kontakt</h2>
+
+  <p>
+    Bei Fragen zum Datenschutz oder zur Verarbeitung personenbezogener
+    Daten ist eine Kontaktaufnahme möglich unter:
+  </p>
+
+  <p>
+    <a href="mailto:info@wortdestages.eu">
+      info@wortdestages.eu
+    </a>
+  </p>
+
+</main>
+
+<footer>
+
+  <div class="footer-inner">
+
+    <div>
+      © 2026 Wort des Tages
+    </div>
+
+    <div>
+      <a href="https://neverever007.github.io/wort-des-tages-website/">
+        Startseite
+      </a>
+
+      <a href="https://neverever007.github.io/wort-des-tages-website/nutzungsbedingungen.html">
+        Nutzungsbedingungen
+      </a>
+    </div>
+
+  </div>
+
+</footer>
+
 </body>
 </html>
