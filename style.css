@@ -1,0 +1,22 @@
+/* Rechtliches „Wort des Tages“: gleicher Aufbau wie bei „Zitat des Tages“, im Stil des W-Logos (Schwarz + Türkis) */
+:root{--bg:#000;--line:#232326;--text:#fafafa;--soft:#a3a3a3;--card:#0f0f10;--accent:#22d3d8;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:0 20px}
+main{max-width:720px;margin:0 auto;padding:28px 0 64px}
+a{color:var(--accent)}
+.brand{display:flex;align-items:center;gap:10px;color:var(--text);font:600 1.15rem/1 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;text-decoration:none;padding-bottom:22px;margin-bottom:22px;border-bottom:1px solid var(--line)}
+.brand img{width:32px;height:32px;border-radius:8px}
+h1{font:600 2.1rem/1.2 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;margin:.2em 0 .5em}
+h1::after{content:"";display:block;width:64px;height:4px;border-radius:2px;background:var(--accent);margin-top:14px}
+h2{font:600 1.1rem/1.3 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;margin:1.8em 0 .5em}
+p,li{color:var(--soft)}
+ul,ol{padding-left:1.3em}
+li{margin:.35em 0}
+strong{color:var(--text)}
+.subtitle,.muted{color:var(--soft);font-size:.9rem;opacity:.85}
+.card,.box{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px 22px;margin:14px 0}
+.box{border-left:3px solid var(--accent)}
+.card > a:only-child{display:block;text-decoration:none;color:var(--text)}
+.card > a:only-child::after{content:" →";color:var(--accent)}
+.card p:last-child,.box p:last-child{margin-bottom:0}
+.site{margin-top:32px;font-size:.9rem}
